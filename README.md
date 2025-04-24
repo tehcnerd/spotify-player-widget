@@ -14,4 +14,7 @@ add a redirect URL. (will come in handy when running the widget for the first ti
 
 get the ```client id (api key)``` and ```client secret```.
 
+when running the ```spotifyui.py``` for the first time, you might be redirected (or not) to the *redirect-url* (in our case its ```https://www.google.com```) and will be
+prompted to type in the same url in the CLI or the terminal, type the *redirect-url* you used in your Spotify Developer Application to verify the api call.
 
+Note : No need to do it after initialising it for the first time. It stored it in cache.
